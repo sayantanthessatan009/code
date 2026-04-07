@@ -1,0 +1,23 @@
+[project]
+name = "base64_uv"
+version = "0.1.1"
+description = "Simple Base64 encoder/decoder with CLI and small HTTP server (no external dependencies)"
+authors = [ { name = "Your Name", email = "you@example.com" } ]
+readme = "README.md"
+requires-python = ">=3.8"
+
+license = { text = "MIT" }
+keywords = ["base64", "cli", "server"]
+classifiers = [
+	"Programming Language :: Python :: 3",
+	"License :: OSI Approved :: MIT License",
+	"Operating System :: OS Independent",
+]
+
+[project.scripts]
+b64 = "base64_uv.cli:main"
+b64-server = "base64_uv.server:main"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
