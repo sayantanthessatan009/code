@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # base64_uv
 
 Minimal Base64 encoder/decoder (CLI + tiny HTTP server) using only the Python standard library.
